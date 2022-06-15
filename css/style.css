@@ -22,6 +22,25 @@ main{
     background-color: whitesmoke;
 
 }
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+ol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+ol li{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 3px;
+
+}
 .title{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -81,4 +100,13 @@ main{
     text-align: center;
     color: white;
     cursor: pointer;
+}
+
+.crud-form{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
 }
